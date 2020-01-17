@@ -14,6 +14,6 @@
   } );
 
   add_filter( 'adf_footer_logo', function( $url ){
-    $url = plugins_url('adfi/images/logo.png');
+    $url = plugins_url('adfi/images/logo-white.png');
     return $url;
   } );
